@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorchange</title>
+</head>
+<body>
+
+    <h3 id="demo">Click this text to change the color.</h3>
+    
+    <button  onclick="myFunction()">red</button>
+ 
+    <button  onclick="blue()">blue</button>
+ 
+    <button  onclick="green()">green</button>
+
+
+
+
+
+
+    <button  onclick="red()">Red</button>
+   <h1 id="id1">Red</h1>
+
+
+   <button onclick="blue()">Blue</button>
+   <h1 id="id2">blue</h1>
+   
+   <button onclick="Green()">Green</button>
+   <h1 id="id3">Green</h1>
+   
+    <script>
+        function red () {
+            var red = document.getElementById("id1").style.color="Red";
+        }
+        function blue() {
+            var blue = document.getElementById("id2").style.color="Blue"
+    }
+        function Green() {
+            var blue = document.getElementById("id3").style.color="Green"
+    }
+
+
+    // second  code
+
+    
+
+
+
+
+    function myFunction() {
+      document.getElementById("demo").style.color = "red";
+    }
+    function blue(){
+        document.getElementById("demo").style.color = "blue";
+    }
+    function green(){
+        document.getElementById("demo").style.color = "green";
+    }
+    
+   
+
+    </script>
+</body>
+</html>

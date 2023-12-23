@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-Validation</title>
+  </head>
+  <body>
+    <form name="myform" onsubmit="return Validation() ">
+      First Name: <input type="text " name="fname" /> 
+      <br />
+      <br />
+      Middle Name: <input type="text" name="mname"/>
+      <br />
+      <br />
+      Last Name: <input type="text"  name="lname"/> 
+      <br />
+      <br />
+      <input type="submit" name="" id="" value="submit" />
+    </form>
+
+    <script>
+      function Validation() {
+        let a = document.forms["myform"]["fname"].value;
+        let m= document.forms["myform"] ["mname"].value;
+        let l= document.forms["myform"] ["lname"].value;
+       
+        if (a == "") {
+          alert("enter name");
+          return false;
+        }  else if (m == "") {
+            alert ("enter  m name ");
+            return false;
+        }
+        if (l == "") {
+            alert ("Enter L Name");
+            return false;
+        }
+       
+      }
+     
+    </script>
+  </body>
+</html>

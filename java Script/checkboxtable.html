@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        text-align: center;
+      }
+      input {
+        text-align: center;
+      }
+      body {
+        text-align: center;
+      }
+      table{
+     margin-left: 667px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Select Your checkbox :</h3>
+    <table border="1">
+      <tr>
+        <th>Check Box</th>
+        <th>Items Value</th>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="a" onclick="Total()" /></td>
+        <td><p id="Items"></p></td>
+      </tr>
+    </table>
+    <script>
+      function Total() {
+        document.getElementById("Items").innerHTML = 2013;
+      }
+    </script>
+  </body>
+</html>

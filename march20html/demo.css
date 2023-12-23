@@ -1,0 +1,26 @@
+
+body{
+    background-color: rgb(134, 245, 245);
+    
+}
+.container{
+    margin: auto;
+    border: 1px solid red;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(242, 180, 35);
+    border-radius: 70px;
+    margin-bottom: auto;
+}
+h1{
+    /* background-color: aquamarine; */
+    color: coral;
+    font-style: italic;
+    
+}
+
+.Codekul{
+    width: 50%;
+    height: 100%;
+    
+}

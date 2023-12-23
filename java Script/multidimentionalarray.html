@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multidimention-array</title>
+</head>
+<body>
+     
+    <script>
+        const arr10 = [
+            [20, 40, 60, 50],
+            [10, 13, 14, 15, 55],
+            [48, 58, 38, 45],
+            [29,2929,2929,292]
+        ];
+        console.log(arr10)
+        
+
+        // find and filter
+
+        // greater than > num 
+        const arr11 = [22, 33, 44, 55, 66, 77]
+        const f = arr11.find(f => f > 33)
+        console.log(f)
+
+        const arr12 = [22, 33, 44, 55, 66, 77]
+        const g = arr12.filter(f => f > 33)
+        console.log(g)
+
+        const h = arr12.filter(f => f < 44)
+        console.log(h)
+
+        
+        const j = arr12.find(f => f < 44)
+        console.log(j)
+
+        const arr15 = ['adi', 'shri', 'jay', 'omi', 'aaa'];
+        const n = arr15.filter(f => f.length > 3)
+        console.log(n)
+    </script>
+</body>
+</html>

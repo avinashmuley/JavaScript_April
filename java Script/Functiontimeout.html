@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function-time-out</title>
+
+</head>
+
+<body>
+    <button onclick="f()"> log</button>
+    <p>change the bacground color of first element with the </p>
+    <div class="example">
+
+        <p>this is paragraph</p>
+
+    </div>
+    <div class="example color">
+        <p>this is paragraph</p>
+    </div>
+    <div class="example color">
+        <p>this is paragraph</p>
+    </div>
+    <script>
+        setTimeout(() => {
+            console.log('hello')
+        }, 5000);
+        setTimeout(() => {
+            console.log('Shrinivas')
+        }, 10000);
+        const collection = document.getElementsByClassName("example color");
+        collection[1].style.backgroundColor = "red";
+
+     function f(){
+        setTimeout(() => {
+            console.log('is this set time out')
+        }, 5000);
+     }
+    </script>
+</body>
+
+</html>
